@@ -35,7 +35,7 @@ except Exception:
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# ---------------- ROUTES ---------------- #
+#  ROUTES #
 
 @app.route('/')
 def index():
